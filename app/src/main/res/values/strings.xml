@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PADARIA E MERCEARIA SOUZA</string>
+    <string name="Permissao" />
+    <string name="Solicitacao" />
+    <string name="camera_error" />
+    <string name="intro_message">Mesagem de Introdução</string>
+    <string name="request_permission" />
+    <string name="message">NECESSITA ACESSAR A CAMERA</string>
+    <string name="Ok">OK</string>
+    <string name="NEGAR">CANCELAR</string>
+    <string name="mensagem_de_erro">PARA O FUNCIONAMENTO DO APP O ACESSO À CÂMERA DEVE SER CONCEDIDO</string>
+
+</resources>

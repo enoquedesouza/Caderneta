@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alwaysDrawnWithCache="true"
+    android:animateLayoutChanges="true"
+    android:animationCache="true"
+    android:background="@android:color/background_light"
+    android:backgroundTint="@android:color/background_light"
+    android:baselineAligned="true"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/relative1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:padding="?attr/dialogPreferredPadding"
+                android:theme="@style/Base.AlertDialog.AppCompat.Light">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/vendas"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@android:color/background_light"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/vendas_src" />
+
+                    <TextView
+                        android:id="@+id/_vendas"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="VENDAS"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/holo_green_light"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:padding="?attr/dialogPreferredPadding">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/caderneta"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@android:color/background_light"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/caderneta_src" />
+
+                    <TextView
+                        android:id="@+id/_caderneta"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="CADERNETA"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/holo_green_light"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:padding="?attr/dialogPreferredPadding">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:baselineAligned="true"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/fluxo_de_caixa"
+                        android:layout_width="match_parent"
+                        android:layout_height="115dp"
+                        android:layout_centerHorizontal="true"
+                        android:adjustViewBounds="true"
+                        android:background="@android:color/background_light"
+                        android:cropToPadding="false"
+                        app:srcCompat="@drawable/fluxo_de_caixa_src" />
+
+                    <TextView
+                        android:id="@+id/_fluxo_de_caixa"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="FLUXO DE CAIXA"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/holo_green_light"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:padding="?attr/dialogPreferredPadding">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:baselineAligned="true"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/image_gerenciamento"
+                        android:layout_width="match_parent"
+                        android:layout_height="115dp"
+                        android:layout_centerHorizontal="true"
+                        android:adjustViewBounds="true"
+                        android:background="@android:color/background_light"
+                        android:cropToPadding="false"
+                        app:srcCompat="@drawable/gerenciamento_src" />
+
+                    <TextView
+                        android:id="@+id/gerenciamento"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="GERENCIAMENTO"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/holo_green_light"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

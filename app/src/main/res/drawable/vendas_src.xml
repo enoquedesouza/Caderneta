@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/vendas_icon3" /> <!-- pressed -->
+    <item android:state_focused="true" android:drawable="@drawable/vendas_icon2" /> <!-- focused -->
+    <item android:drawable="@drawable/vendas_icon" /> <!-- default -->
+</selector>
